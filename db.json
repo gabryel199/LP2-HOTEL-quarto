@@ -1,0 +1,138 @@
+{
+  "tipoQuarto": [
+    {
+      "id": 1,
+      "titulo": "suite master",
+      "descricao": "xxxxxxxxxxxx",
+      "limiteAdulto": 4,
+      "limiteCrianca": 2,
+      "precoBase": 500,
+      "avaliacaoMedia": 5,
+      "diasCancelarReserva": 1,
+      "area": 70
+    },
+    {
+      "id": 2,
+      "titulo": "standart deluxe 1",
+      "descricao": "xxxxxxxxxxxx",
+      "limiteAdulto": 4,
+      "limiteCrianca": 2,
+      "precoBase": 500,
+      "avaliacaoMedia": 5,
+      "diasCancelarReserva": 1,
+      "area": 70
+    },
+    {
+      "id": 3,
+      "titulo": "standart deluxe 2",
+      "descricao": "xxxxxxxxxxxx",
+      "limiteAdulto": 4,
+      "limiteCrianca": 2,
+      "precoBase": 500,
+      "avaliacaoMedia": 5,
+      "diasCancelarReserva": 1,
+      "area": 70
+    },
+    {
+      "id": 4,
+      "titulo": "quaro king - frente mar",
+      "descricao": "xxxxxxxxxxxx",
+      "limiteAdulto": 4,
+      "limiteCrianca": 2,
+      "precoBase": 500,
+      "avaliacaoMedia": 5,
+      "diasCancelarReserva": 1,
+      "area": 70
+    }
+  ],
+  "camaTipoQuarto": [
+    {
+      "id": 1,
+      "quantidade": 1,
+      "tipoQuarto_id": 1,
+      "tipoCama_id": 1
+    },
+    {
+      "id": 2,
+      "quantidade": 1,
+      "tipoQuarto_id": 4,
+      "tipoCama_id": 4
+    },
+    {
+      "id": 3,
+      "quantidade": 2,
+      "tipoQuarto_id": 2,
+      "tipoCama_id": 1
+    },
+    {
+      "id": 4,
+      "quantidade": 2,
+      "tipoQuarto_id": 3,
+      "tipoCama_id": 1
+    }
+  ],
+  "tipoCama": [
+    {
+      "id": 1,
+      "titulo": "casal",
+      "descricao": "xxxxxxxxxxx",
+      "ocupantes": 2
+    },
+    {
+      "id": 2,
+      "titulo": "solteiro",
+      "descricao": "xxxxxxxxxxx",
+      "ocupantes": 1
+    },
+    {
+      "id": 3,
+      "titulo": "casal extragrande",
+      "descricao": "xxxxxxxxxxx",
+      "ocupantes": 2
+    },
+    {
+      "id": 4,
+      "titulo": "beliche",
+      "descricao": "xxxxxxxxxxx",
+      "ocupantes": 2
+    }
+  ],
+  "quarto": [
+    {
+      "id": 1,
+      "numero": "1101",
+      "andar": "1",
+      "bloco": 1,
+      "status": "ocupado",
+      "hotel_id": 1,
+      "tipoQuarto_id": 4
+    },
+    {
+      "id": 1,
+      "numero": "2601",
+      "andar": "1",
+      "bloco": 2,
+      "status": "ocupado",
+      "hotel_id": 1,
+      "tipoQuarto_id": 1
+    },
+    {
+      "id": 1,
+      "numero": "2102",
+      "andar": "1",
+      "bloco": 2,
+      "status": "manutencao",
+      "hotel_id": 1,
+      "tipoQuarto_id": 2
+    },
+    {
+      "id": 1,
+      "numero": "1507",
+      "andar": "5",
+      "bloco": 1,
+      "status": "disponivel",
+      "hotel_id": 1,
+      "tipoQuarto_id": 4
+    }
+  ]
+}
