@@ -103,7 +103,7 @@
       "numero": "1101",
       "andar": "1",
       "bloco": 1,
-      "status": "ocupado",
+      "status": 2,
       "hotel_id": 1,
       "tipoQuarto_id": 4
     },
@@ -112,7 +112,7 @@
       "numero": "2601",
       "andar": "1",
       "bloco": 2,
-      "status": "ocupado",
+      "status": 2,
       "hotel_id": 1,
       "tipoQuarto_id": 1
     },
@@ -121,7 +121,7 @@
       "numero": "2102",
       "andar": "1",
       "bloco": 2,
-      "status": "manutencao",
+      "status": 3,
       "hotel_id": 1,
       "tipoQuarto_id": 2
     },
@@ -130,7 +130,7 @@
       "numero": "1507",
       "andar": "5",
       "bloco": 1,
-      "status": "disponivel",
+      "status": 1,
       "hotel_id": 1,
       "tipoQuarto_id": 4
     }
