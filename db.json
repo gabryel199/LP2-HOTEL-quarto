@@ -9,7 +9,55 @@
       "precoBase": 500,
       "avaliacaoMedia": 5,
       "diasCancelarReserva": 1,
-      "area": 70
+      "area": 70,
+      "camaTipoQuarto": [
+                          {
+                            "id": 1,
+                            "quantidade": 1,
+                            "tipoQuarto_id": 1,
+                            "tipoCama_id": 1
+                          },
+                          {
+                            "id": 2,
+                            "quantidade": 1,
+                            "tipoQuarto_id": 4,
+                            "tipoCama_id": 4
+                          },
+                          {
+                            "id": 3,
+                            "quantidade": 2,
+                            "tipoQuarto_id": 2,
+                            "tipoCama_id": 1
+                          },
+                          {
+                            "id": 4,
+                            "quantidade": 2,
+                            "tipoQuarto_id": 3,
+                            "tipoCama_id": 1
+                          }
+                        ],
+      "comodidadeTipoQuarto": [
+                                {
+                                  "id": 1,
+                                  "qtd": 1,
+                                  "id_comodidade_id": 1
+                                },
+                                {
+                                  "id": 2,
+                                  "qtd": 1,
+                                  "id_comodidade_id": 3
+                                },
+                                {
+                                  "id": 3,
+                                  "qtd": 2,
+                                  "id_comodidade_id": 2
+                                },
+                                {
+                                  "id": 4,
+                                  "qtd": 2,
+                                  "id_comodidade_id": 3
+                                }
+                              ]
     },
     {
       "id": 2,
