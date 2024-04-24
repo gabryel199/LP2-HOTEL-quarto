@@ -1,5 +1,5 @@
 {
-  "tipoQuarto": [
+  "tipoQuartos": [
     {
       "id": 1,
       "titulo": "suite master",
@@ -36,7 +36,7 @@
                             "tipoCama_id": 1
                           }
                         ],
-      "comodidadeTipoQuarto": [
+      "comodidadeTipoQuartos": [
                                 {
                                   "id": 1,
                                   "qtd": 1,
@@ -93,7 +93,7 @@
       "area": 70
     }
   ],
-  "camaTipoQuarto": [
+  "camaTipoQuartos": [
     {
       "id": 1,
       "quantidade": 1,
@@ -119,7 +119,7 @@
       "tipoCama_id": 1
     }
   ],
-  "tipoCama": [
+  "tipoCamas": [
     {
       "id": 1,
       "titulo": "casal",
@@ -145,7 +145,7 @@
       "ocupantes": 2
     }
   ],
-  "quarto": [
+  "quartos": [
     {
       "id": 1,
       "numero": "1101",
